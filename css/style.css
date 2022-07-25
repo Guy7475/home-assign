@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid rgb(123, 255, 0); */
+}
+
+.article {
+    border: 1px solid blue;
+    text-align: right;
+    width: fit-content;
+    padding: 5px;
+}
+
+.artical-body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    border: 1px solid rgb(172, 172, 172);
+    width: 75vw;
+}
+
+h1 {
+    background-color: rgb(172, 172, 172);
+    margin-top: 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+button {}
+
+.likes {
+    display: inline-block;
+    text-align: right;
+    margin-left: 1em;
+}
+
+td {
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+.face {
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.eye {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.mouth {
+    width: 3em;
+    height: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    border: 1px solid black;
+    border-bottom: 0;
+}
